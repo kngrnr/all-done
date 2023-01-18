@@ -11,6 +11,10 @@
 		CF31326029782D3900B6D291 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF31325F29782D3900B6D291 /* ContentView.swift */; };
 		CF31326229782D3A00B6D291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF31326129782D3A00B6D291 /* Assets.xcassets */; };
 		CF31326529782D3A00B6D291 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF31326429782D3A00B6D291 /* Preview Assets.xcassets */; };
+		CF3132712978325100B6D291 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132702978325100B6D291 /* LoginView.swift */; };
+		CF3132752978332100B6D291 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132742978332100B6D291 /* SignupView.swift */; };
+		CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132762978342700B6D291 /* BackgroundGradientView.swift */; };
+		CF3132792978369500B6D291 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132782978369500B6D291 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CF31325F29782D3900B6D291 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF31326129782D3A00B6D291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF31326429782D3A00B6D291 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF3132702978325100B6D291 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CF3132742978332100B6D291 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		CF3132762978342700B6D291 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
+		CF3132782978369500B6D291 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		CF31325C29782D3900B6D291 /* all-done */ = {
 			isa = PBXGroup;
 			children = (
+				CF31326E2978318F00B6D291 /* Model */,
+				CF31326D2978317C00B6D291 /* ViewModel */,
+				CF31326C2978317500B6D291 /* View */,
 				CF31325D29782D3900B6D291 /* all_doneApp.swift */,
 				CF31325F29782D3900B6D291 /* ContentView.swift */,
 				CF31326129782D3A00B6D291 /* Assets.xcassets */,
@@ -65,6 +76,47 @@
 				CF31326429782D3A00B6D291 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF31326C2978317500B6D291 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF313273297832E800B6D291 /* Authentication */,
+				CF313272297832B700B6D291 /* Utils */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF31326D2978317C00B6D291 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF31326E2978318F00B6D291 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF313272297832B700B6D291 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF3132762978342700B6D291 /* BackgroundGradientView.swift */,
+				CF3132782978369500B6D291 /* LogoView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF313273297832E800B6D291 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CF3132702978325100B6D291 /* LoginView.swift */,
+				CF3132742978332100B6D291 /* SignupView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3132752978332100B6D291 /* SignupView.swift in Sources */,
+				CF3132792978369500B6D291 /* LogoView.swift in Sources */,
+				CF3132712978325100B6D291 /* LoginView.swift in Sources */,
 				CF31326029782D3900B6D291 /* ContentView.swift in Sources */,
+				CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */,
 				CF31325E29782D3900B6D291 /* all_doneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
