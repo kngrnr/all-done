@@ -19,6 +19,7 @@
 		CF722348297E915600085579 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722347297E915600085579 /* EmailTextField.swift */; };
 		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
 		CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234D297E9AD100085579 /* PasswordSecureField.swift */; };
+		CF722350297EA0F300085579 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		CF722347297E915600085579 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		CF722349297E961400085579 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		CF72234D297E9AD100085579 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
+		CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				CF722346297E913900085579 /* TextFields */,
 				CF3132762978342700B6D291 /* BackgroundGradientView.swift */,
 				CF3132782978369500B6D291 /* LogoView.swift */,
+				CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				CF3132792978369500B6D291 /* LogoView.swift in Sources */,
 				CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */,
 				CF3132712978325100B6D291 /* LoginView.swift in Sources */,
+				CF722350297EA0F300085579 /* AuthenticateButtonView.swift in Sources */,
 				CF31326029782D3900B6D291 /* ContentView.swift in Sources */,
 				CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */,
 				CF72234A297E961400085579 /* CustomSecureField.swift in Sources */,

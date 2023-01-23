@@ -11,6 +11,7 @@ struct SignupView: View {
     var body: some View {
         ZStack {
             BackgroundGradientView()
+            Text("SignUp View")
         }
     }
 }
