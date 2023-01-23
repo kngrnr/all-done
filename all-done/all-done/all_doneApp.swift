@@ -6,9 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 @main
 struct all_doneApp: App {
+    
+    init() {{
+        
+        FirebaseApp.configure()
+    }}
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

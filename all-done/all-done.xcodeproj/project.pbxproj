@@ -21,6 +21,7 @@
 		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
 		CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234D297E9AD100085579 /* PasswordSecureField.swift */; };
 		CF722350297EA0F300085579 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */; };
+		CFA52305297ECDC30091EDCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA52304297ECDC20091EDCC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CF72234D297E9AD100085579 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
 		CFA52301297EC9A10091EDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFA52304297ECDC20091EDCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +72,13 @@
 				C4B4C143753746AD6E57F3A0 /* Pods-all-done.debug.xcconfig */,
 				522D5F20C8A84EE1CA8A8C06 /* Pods-all-done.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		CF31325129782D3900B6D291 = {
 			isa = PBXGroup;
 			children = (
+				CFA52304297ECDC20091EDCC /* GoogleService-Info.plist */,
 				CF31325C29782D3900B6D291 /* all-done */,
 				CF31325B29782D3900B6D291 /* Products */,
 				4E10009A2D48F200D4A75AB4 /* Pods */,
@@ -231,6 +233,7 @@
 			files = (
 				CF31326529782D3A00B6D291 /* Preview Assets.xcassets in Resources */,
 				CF31326229782D3A00B6D291 /* Assets.xcassets in Resources */,
+				CFA52305297ECDC30091EDCC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

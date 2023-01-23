@@ -11,5 +11,6 @@ target 'all-done' do
   pod 'FirebaseFirestore'
   pod 'FirebaseStorage'
   pod 'FirebaseCrashlytics'
+  pod 'FirebaseCore'
 
 end
