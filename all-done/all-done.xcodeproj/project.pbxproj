@@ -15,6 +15,10 @@
 		CF3132752978332100B6D291 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132742978332100B6D291 /* SignupView.swift */; };
 		CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132762978342700B6D291 /* BackgroundGradientView.swift */; };
 		CF3132792978369500B6D291 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132782978369500B6D291 /* LogoView.swift */; };
+		CF722345297E8D5700085579 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722344297E8D5700085579 /* CustomTextField.swift */; };
+		CF722348297E915600085579 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722347297E915600085579 /* EmailTextField.swift */; };
+		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
+		CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234D297E9AD100085579 /* PasswordSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		CF3132742978332100B6D291 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		CF3132762978342700B6D291 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 		CF3132782978369500B6D291 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		CF722344297E8D5700085579 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CF722347297E915600085579 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		CF722349297E961400085579 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		CF72234D297E9AD100085579 /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 		CF313272297832B700B6D291 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CF722346297E913900085579 /* TextFields */,
 				CF3132762978342700B6D291 /* BackgroundGradientView.swift */,
 				CF3132782978369500B6D291 /* LogoView.swift */,
 			);
@@ -117,6 +126,17 @@
 				CF3132742978332100B6D291 /* SignupView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CF722346297E913900085579 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CF722344297E8D5700085579 /* CustomTextField.swift */,
+				CF722347297E915600085579 /* EmailTextField.swift */,
+				CF722349297E961400085579 /* CustomSecureField.swift */,
+				CF72234D297E9AD100085579 /* PasswordSecureField.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF722348297E915600085579 /* EmailTextField.swift in Sources */,
+				CF722345297E8D5700085579 /* CustomTextField.swift in Sources */,
 				CF3132752978332100B6D291 /* SignupView.swift in Sources */,
 				CF3132792978369500B6D291 /* LogoView.swift in Sources */,
+				CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */,
 				CF3132712978325100B6D291 /* LoginView.swift in Sources */,
 				CF31326029782D3900B6D291 /* ContentView.swift in Sources */,
 				CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */,
+				CF72234A297E961400085579 /* CustomSecureField.swift in Sources */,
 				CF31325E29782D3900B6D291 /* all_doneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
