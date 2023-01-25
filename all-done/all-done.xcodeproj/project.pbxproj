@@ -23,6 +23,7 @@
 		CF380C2229802C7C00A3D921 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2129802C7C00A3D921 /* AppUser.swift */; };
 		CF380C2429802E3500A3D921 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2329802E3500A3D921 /* TODO.swift */; };
 		CF380C2629802EF300A3D921 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2529802EF300A3D921 /* SelectedButton.swift */; };
+		CF6E6ED029814EB400822557 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ECF29814EB400822557 /* TODOViewModel.swift */; };
 		CF722345297E8D5700085579 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722344297E8D5700085579 /* CustomTextField.swift */; };
 		CF722348297E915600085579 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722347297E915600085579 /* EmailTextField.swift */; };
 		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
@@ -52,6 +53,7 @@
 		CF380C2129802C7C00A3D921 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		CF380C2329802E3500A3D921 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		CF380C2529802EF300A3D921 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		CF6E6ECF29814EB400822557 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 		CF722344297E8D5700085579 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CF722347297E915600085579 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		CF722349297E961400085579 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				CF32018629813B4400E6F422 /* AuthViewModel.swift */,
+				CF6E6ECF29814EB400822557 /* TODOViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				CF380C1F29802B8B00A3D921 /* Constants.swift in Sources */,
 				CF722350297EA0F300085579 /* AuthenticateButtonView.swift in Sources */,
 				CF31326029782D3900B6D291 /* ContentView.swift in Sources */,
+				CF6E6ED029814EB400822557 /* TODOViewModel.swift in Sources */,
 				CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */,
 				CF72234A297E961400085579 /* CustomSecureField.swift in Sources */,
 				CF31325E29782D3900B6D291 /* all_doneApp.swift in Sources */,
