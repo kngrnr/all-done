@@ -6,20 +6,21 @@
 //
 
 import SwiftUI
-import Firebase
+import FirebaseCore
 
 
 @main
 struct all_doneApp: App {
     
-    init() {{
+    init() {
         
         FirebaseApp.configure()
-    }}
+    }
     
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AuthViewModel.shared)
         }
     }
 }

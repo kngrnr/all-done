@@ -16,12 +16,20 @@
 		CF3132752978332100B6D291 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132742978332100B6D291 /* SignupView.swift */; };
 		CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132762978342700B6D291 /* BackgroundGradientView.swift */; };
 		CF3132792978369500B6D291 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3132782978369500B6D291 /* LogoView.swift */; };
+		CF320184298138BA00E6F422 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF320183298138BA00E6F422 /* MockData.swift */; };
+		CF32018729813B4400E6F422 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32018629813B4400E6F422 /* AuthViewModel.swift */; };
+		CF3201892981417E00E6F422 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3201882981417E00E6F422 /* DashboardView.swift */; };
+		CF380C1F29802B8B00A3D921 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C1E29802B8B00A3D921 /* Constants.swift */; };
+		CF380C2229802C7C00A3D921 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2129802C7C00A3D921 /* AppUser.swift */; };
+		CF380C2429802E3500A3D921 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2329802E3500A3D921 /* TODO.swift */; };
+		CF380C2629802EF300A3D921 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2529802EF300A3D921 /* SelectedButton.swift */; };
 		CF722345297E8D5700085579 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722344297E8D5700085579 /* CustomTextField.swift */; };
 		CF722348297E915600085579 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722347297E915600085579 /* EmailTextField.swift */; };
 		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
 		CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234D297E9AD100085579 /* PasswordSecureField.swift */; };
 		CF722350297EA0F300085579 /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */; };
 		CFA52305297ECDC30091EDCC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA52304297ECDC20091EDCC /* GoogleService-Info.plist */; };
+		CFA52307297ED1390091EDCC /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA52306297ED1390091EDCC /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,13 @@
 		CF3132742978332100B6D291 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		CF3132762978342700B6D291 /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 		CF3132782978369500B6D291 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		CF320183298138BA00E6F422 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		CF32018629813B4400E6F422 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		CF3201882981417E00E6F422 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		CF380C1E29802B8B00A3D921 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF380C2129802C7C00A3D921 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		CF380C2329802E3500A3D921 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
+		CF380C2529802EF300A3D921 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
 		CF722344297E8D5700085579 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CF722347297E915600085579 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		CF722349297E961400085579 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
@@ -44,6 +59,7 @@
 		CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
 		CFA52301297EC9A10091EDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CFA52304297ECDC20091EDCC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFA52306297ED1390091EDCC /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +113,10 @@
 		CF31325C29782D3900B6D291 /* all-done */ = {
 			isa = PBXGroup;
 			children = (
+				CF32018529813B3300E6F422 /* ViewModel */,
+				CF380C2029802C6A00A3D921 /* Model */,
+				CF380C1D29802B7900A3D921 /* Utils */,
 				CFA52301297EC9A10091EDCC /* Info.plist */,
-				CF31326E2978318F00B6D291 /* Model */,
-				CF31326D2978317C00B6D291 /* ViewModel */,
 				CF31326C2978317500B6D291 /* View */,
 				CF31325D29782D3900B6D291 /* all_doneApp.swift */,
 				CF31325F29782D3900B6D291 /* ContentView.swift */,
@@ -122,22 +139,9 @@
 			children = (
 				CF313273297832E800B6D291 /* Authentication */,
 				CF313272297832B700B6D291 /* Utils */,
+				CF3201882981417E00E6F422 /* DashboardView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		CF31326D2978317C00B6D291 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		CF31326E2978318F00B6D291 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		CF313272297832B700B6D291 /* Utils */ = {
@@ -160,6 +164,33 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
+		CF32018529813B3300E6F422 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF32018629813B4400E6F422 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CF380C1D29802B7900A3D921 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF380C1E29802B8B00A3D921 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CF380C2029802C6A00A3D921 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF380C2129802C7C00A3D921 /* AppUser.swift */,
+				CF380C2329802E3500A3D921 /* TODO.swift */,
+				CF380C2529802EF300A3D921 /* SelectedButton.swift */,
+				CF320183298138BA00E6F422 /* MockData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CF722346297E913900085579 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +198,7 @@
 				CF722347297E915600085579 /* EmailTextField.swift */,
 				CF722349297E961400085579 /* CustomSecureField.swift */,
 				CF72234D297E9AD100085579 /* PasswordSecureField.swift */,
+				CFA52306297ED1390091EDCC /* UserTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -286,12 +318,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF380C2229802C7C00A3D921 /* AppUser.swift in Sources */,
 				CF722348297E915600085579 /* EmailTextField.swift in Sources */,
 				CF722345297E8D5700085579 /* CustomTextField.swift in Sources */,
+				CF320184298138BA00E6F422 /* MockData.swift in Sources */,
+				CFA52307297ED1390091EDCC /* UserTextField.swift in Sources */,
+				CF380C2629802EF300A3D921 /* SelectedButton.swift in Sources */,
 				CF3132752978332100B6D291 /* SignupView.swift in Sources */,
+				CF380C2429802E3500A3D921 /* TODO.swift in Sources */,
+				CF3201892981417E00E6F422 /* DashboardView.swift in Sources */,
+				CF32018729813B4400E6F422 /* AuthViewModel.swift in Sources */,
 				CF3132792978369500B6D291 /* LogoView.swift in Sources */,
 				CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */,
 				CF3132712978325100B6D291 /* LoginView.swift in Sources */,
+				CF380C1F29802B8B00A3D921 /* Constants.swift in Sources */,
 				CF722350297EA0F300085579 /* AuthenticateButtonView.swift in Sources */,
 				CF31326029782D3900B6D291 /* ContentView.swift in Sources */,
 				CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */,
