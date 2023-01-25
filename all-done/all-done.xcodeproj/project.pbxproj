@@ -24,6 +24,7 @@
 		CF380C2429802E3500A3D921 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2329802E3500A3D921 /* TODO.swift */; };
 		CF380C2629802EF300A3D921 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2529802EF300A3D921 /* SelectedButton.swift */; };
 		CF6E6ED029814EB400822557 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ECF29814EB400822557 /* TODOViewModel.swift */; };
+		CF6E6ED2298154DB00822557 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ED1298154DB00822557 /* SearchBarView.swift */; };
 		CF722345297E8D5700085579 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722344297E8D5700085579 /* CustomTextField.swift */; };
 		CF722348297E915600085579 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722347297E915600085579 /* EmailTextField.swift */; };
 		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
@@ -54,6 +55,7 @@
 		CF380C2329802E3500A3D921 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		CF380C2529802EF300A3D921 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
 		CF6E6ECF29814EB400822557 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
+		CF6E6ED1298154DB00822557 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		CF722344297E8D5700085579 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CF722347297E915600085579 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		CF722349297E961400085579 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				CF3132762978342700B6D291 /* BackgroundGradientView.swift */,
 				CF3132782978369500B6D291 /* LogoView.swift */,
 				CF72234F297EA0F300085579 /* AuthenticateButtonView.swift */,
+				CF6E6ED1298154DB00822557 /* SearchBarView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				CF380C2429802E3500A3D921 /* TODO.swift in Sources */,
 				CF3201892981417E00E6F422 /* DashboardView.swift in Sources */,
 				CF32018729813B4400E6F422 /* AuthViewModel.swift in Sources */,
+				CF6E6ED2298154DB00822557 /* SearchBarView.swift in Sources */,
 				CF3132792978369500B6D291 /* LogoView.swift in Sources */,
 				CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */,
 				CF3132712978325100B6D291 /* LoginView.swift in Sources */,
