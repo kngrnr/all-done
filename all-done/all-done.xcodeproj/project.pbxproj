@@ -23,10 +23,15 @@
 		CF380C2229802C7C00A3D921 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2129802C7C00A3D921 /* AppUser.swift */; };
 		CF380C2429802E3500A3D921 /* TODO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2329802E3500A3D921 /* TODO.swift */; };
 		CF380C2629802EF300A3D921 /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF380C2529802EF300A3D921 /* SelectedButton.swift */; };
+		CF57341229835B3400648D86 /* TODOTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57341129835B3400648D86 /* TODOTextField.swift */; };
+		CF57341629835CE700648D86 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF57341529835CE700648D86 /* CustomTextEditor.swift */; };
 		CF6E6ED029814EB400822557 /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ECF29814EB400822557 /* TODOViewModel.swift */; };
 		CF6E6ED2298154DB00822557 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ED1298154DB00822557 /* SearchBarView.swift */; };
 		CF6E6ED429815DE900822557 /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ED329815DE900822557 /* TODOButtonStack.swift */; };
 		CF6E6ED62981611000822557 /* AddTODOLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ED52981611000822557 /* AddTODOLogo.swift */; };
+		CF6E6ED8298162A600822557 /* TODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ED7298162A600822557 /* TODOView.swift */; };
+		CF6E6EDA298165F400822557 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6ED9298165F400822557 /* BlankView.swift */; };
+		CF6E6EDC2981667100822557 /* CreateTODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6E6EDB2981667100822557 /* CreateTODOView.swift */; };
 		CF722345297E8D5700085579 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722344297E8D5700085579 /* CustomTextField.swift */; };
 		CF722348297E915600085579 /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722347297E915600085579 /* EmailTextField.swift */; };
 		CF72234A297E961400085579 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF722349297E961400085579 /* CustomSecureField.swift */; };
@@ -56,10 +61,15 @@
 		CF380C2129802C7C00A3D921 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		CF380C2329802E3500A3D921 /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		CF380C2529802EF300A3D921 /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
+		CF57341129835B3400648D86 /* TODOTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOTextField.swift; sourceTree = "<group>"; };
+		CF57341529835CE700648D86 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 		CF6E6ECF29814EB400822557 /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
 		CF6E6ED1298154DB00822557 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		CF6E6ED329815DE900822557 /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
 		CF6E6ED52981611000822557 /* AddTODOLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTODOLogo.swift; sourceTree = "<group>"; };
+		CF6E6ED7298162A600822557 /* TODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOView.swift; sourceTree = "<group>"; };
+		CF6E6ED9298165F400822557 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		CF6E6EDB2981667100822557 /* CreateTODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTODOView.swift; sourceTree = "<group>"; };
 		CF722344297E8D5700085579 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		CF722347297E915600085579 /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
 		CF722349297E961400085579 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
@@ -148,6 +158,8 @@
 				CF313273297832E800B6D291 /* Authentication */,
 				CF313272297832B700B6D291 /* Utils */,
 				CF3201882981417E00E6F422 /* DashboardView.swift */,
+				CF6E6ED7298162A600822557 /* TODOView.swift */,
+				CF6E6EDB2981667100822557 /* CreateTODOView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,6 +174,8 @@
 				CF6E6ED1298154DB00822557 /* SearchBarView.swift */,
 				CF6E6ED329815DE900822557 /* TODOButtonStack.swift */,
 				CF6E6ED52981611000822557 /* AddTODOLogo.swift */,
+				CF6E6ED9298165F400822557 /* BlankView.swift */,
+				CF57341529835CE700648D86 /* CustomTextEditor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -206,6 +220,7 @@
 		CF722346297E913900085579 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				CF57341129835B3400648D86 /* TODOTextField.swift */,
 				CF722344297E8D5700085579 /* CustomTextField.swift */,
 				CF722347297E915600085579 /* EmailTextField.swift */,
 				CF722349297E961400085579 /* CustomSecureField.swift */,
@@ -332,6 +347,8 @@
 			files = (
 				CF380C2229802C7C00A3D921 /* AppUser.swift in Sources */,
 				CF722348297E915600085579 /* EmailTextField.swift in Sources */,
+				CF6E6EDC2981667100822557 /* CreateTODOView.swift in Sources */,
+				CF6E6ED8298162A600822557 /* TODOView.swift in Sources */,
 				CF722345297E8D5700085579 /* CustomTextField.swift in Sources */,
 				CF320184298138BA00E6F422 /* MockData.swift in Sources */,
 				CFA52307297ED1390091EDCC /* UserTextField.swift in Sources */,
@@ -339,10 +356,12 @@
 				CF3132752978332100B6D291 /* SignupView.swift in Sources */,
 				CF380C2429802E3500A3D921 /* TODO.swift in Sources */,
 				CF3201892981417E00E6F422 /* DashboardView.swift in Sources */,
+				CF57341229835B3400648D86 /* TODOTextField.swift in Sources */,
 				CF32018729813B4400E6F422 /* AuthViewModel.swift in Sources */,
 				CF6E6ED429815DE900822557 /* TODOButtonStack.swift in Sources */,
 				CF6E6ED2298154DB00822557 /* SearchBarView.swift in Sources */,
 				CF3132792978369500B6D291 /* LogoView.swift in Sources */,
+				CF57341629835CE700648D86 /* CustomTextEditor.swift in Sources */,
 				CF72234E297E9AD100085579 /* PasswordSecureField.swift in Sources */,
 				CF3132712978325100B6D291 /* LoginView.swift in Sources */,
 				CF380C1F29802B8B00A3D921 /* Constants.swift in Sources */,
@@ -350,6 +369,7 @@
 				CF31326029782D3900B6D291 /* ContentView.swift in Sources */,
 				CF6E6ED029814EB400822557 /* TODOViewModel.swift in Sources */,
 				CF3132772978342700B6D291 /* BackgroundGradientView.swift in Sources */,
+				CF6E6EDA298165F400822557 /* BlankView.swift in Sources */,
 				CF72234A297E961400085579 /* CustomSecureField.swift in Sources */,
 				CF31325E29782D3900B6D291 /* all_doneApp.swift in Sources */,
 				CF6E6ED62981611000822557 /* AddTODOLogo.swift in Sources */,
